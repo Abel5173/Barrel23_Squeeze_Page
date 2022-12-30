@@ -1,1 +1,2 @@
 # Barrel23_Squeeze_Page
+Functional requirements
