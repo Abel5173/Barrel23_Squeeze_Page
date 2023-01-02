@@ -6,7 +6,7 @@ const Footer = ()=>{
 
     return(
 
-        <Box mt={2}>
+        <Box mt={2} height={400} sx={{height:300}}>
         
            <Stack direction="row"
                alignItems={'center'}
@@ -17,6 +17,9 @@ const Footer = ()=>{
                         <Typography>
                          STAY UP TO,DATE ON THE WORLD'S OLDEST SPRITS
                         </Typography>
+                        <Typography>
+                         What's old is newer than ever.Receive <br/> updates on product release,news  <br/> events and more.
+                        </Typography>
                     </Box>
                     <Box>
                     <form>
@@ -25,12 +28,13 @@ const Footer = ()=>{
                         <TextField
                         label="Your-full-name"
                         placeholder='name'
+                        sx={{width:400}}
                         />
                         <TextField
                         label="your E-mail"
                         placeholder='E-mail'
                         />
-                        <Button variant='contained'>Submit</Button>
+                        <Button variant='contained' sx={{width:50}}>Submit</Button>
                           </Stack>
                     </form>
                     </Box>

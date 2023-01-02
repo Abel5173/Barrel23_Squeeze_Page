@@ -10,12 +10,13 @@ const History  =  ()=>{
 
 
     return(
-        <Box  disableGutters={true} maxWidth={'xl'} alignItems={'center'}
+        <Box  disableGutters={true} maxWidth={'xl'} alignItems={'center'} 
          >
         <Paper  style={{backgroundImage :`url(${Image})`}}   
                     sx={{  
                         backgroundSize:'cover',
-                        padding :0}} >
+                        hight:400,
+                        padding :2}} >
                 <Grid 
                 direction="row"
                 rowSpacing = {3}
