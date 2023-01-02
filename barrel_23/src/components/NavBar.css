@@ -3,7 +3,7 @@ body{
 }
 
 .navbar{
-    padding: 0 2.5rem;
+    padding-right: 1em;
     position: fixed;
     width: 100%;
     display: flex;  
@@ -15,9 +15,11 @@ body{
     color: rgb(0, 0, 0);
 }
 .logo{
+    margin-left: 2em;
     width: 75%;
 }
 .buy-online{
+    margin-right: 2em;
     padding: 0.55rem 1rem 0.55rem 1rem;
     background-color: #1E1E1E;
     color: goldenrod;
