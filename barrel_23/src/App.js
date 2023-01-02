@@ -1,8 +1,16 @@
 import './App.css';
-
+import { Paper } from '@mui/material';
+import History from "./components/History.jsx"
+import Quote from './components/Quote';
+import Footer from './components/Footer';
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div>
+    <History/>
+    <Quote/>
+    <Footer/>
+    </div>
+    
   );
 }
 
