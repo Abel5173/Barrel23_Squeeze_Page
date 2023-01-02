@@ -14,7 +14,8 @@ const Quote  =  ()=>{
          sx={{  backgroundPosition:'10vh',
                 backgroundSize:'cover',
                 hight:400,
-                padding:4
+                paddingBottom:15,
+                paddingTop:4,
                }} >
            <Typography  color={"white"} textAlign={'center'} >
             "Investing in Barrel 21,can be compared with<br/> investing in a piece of history. It's unique,and only <br/>a few have the opportunity to get hold of it."

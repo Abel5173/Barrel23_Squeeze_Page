@@ -16,7 +16,9 @@ const History  =  ()=>{
                     sx={{  
                         backgroundSize:'cover',
                         hight:400,
-                        padding :2}} >
+                        padding :6,
+                        
+                        }} >
                 <Grid 
                 direction="row"
                 rowSpacing = {3}
