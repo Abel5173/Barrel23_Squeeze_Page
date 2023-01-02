@@ -29,7 +29,7 @@ const History  =  ()=>{
                         </Grid>
                     
                         <Grid >
-                        <Button alignItems={'end'} sx={{width: 250,color : "white" , border : "2px solid white"} }variant='outlined' md={{textAlign:'center'}} >$450|BUY BARREL 23</Button>
+                        <Button alignItems={'end'} sx={{width: 250,color : "white" , border : "2px solid white"} }variant='outlined' md={{textAlign:'center'}} >$450 | BUY BARREL 23</Button>
                         </Grid>
 
                 
