@@ -1,6 +1,6 @@
 import {Button, Box, Paper, Grid, Typography} from '@mui/material'
 import React from 'react'
-import Image from './History.jpeg'
+import Image from '../Images/History.jpeg'
 
 
 

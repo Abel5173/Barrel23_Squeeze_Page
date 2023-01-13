@@ -1,8 +1,7 @@
 import { Box, Button, Paper, Typography ,Container} from '@mui/material'
 import { style } from '@mui/system'
 import React from 'react'
-import Image from './23_tag_on_glass.jpg'
-
+import Image from '../Images/23_tag_on_glass.jpg'
 
 
 const Quote  =  ()=>{
@@ -16,7 +15,7 @@ const Quote  =  ()=>{
                 hight:400,
                 paddingBottom:15,
                 paddingTop:1,
-                background:'linear-gradient(to left top,#430089.#82ffa1)'
+                // background:'linear-gradient(to left top,#430089.#82ffa1)'
                }} >
            <Typography  color={"white"} textAlign={'center'} >
             "Investing in Barrel 21,can be compared with<br/> investing in a piece of history. It's unique,and only <br/>a few have the opportunity to get hold of it."
