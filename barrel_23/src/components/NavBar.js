@@ -3,11 +3,11 @@ import { Box } from "@mui/system";
 import React from "react";
 
 const style = {
+    position: 'fixed',
     background: 'linear-gradient(rgba(5,5,5,0.85), rgba(225,225,225,0.0))',
     width: 1,
     height: 100,
     pt: 4 ,
-    position: 'fixed',
 }
 const logoStyle = {
     marginLeft: '1em'
@@ -31,7 +31,7 @@ export default function NavBar(){
                 mr: 8,
                 backgroundColor: "#1E1E1E",
                 borderColor: '#edd766'
-            }} variant="outlined" disableElevation>Barrel 23</Button>
+            }} variant="outlined" >Barrel 23</Button>
         </Box>
     )
 }
