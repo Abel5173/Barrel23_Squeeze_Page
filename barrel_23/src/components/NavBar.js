@@ -3,21 +3,27 @@ import { Box } from "@mui/system";
 import React from "react";
 
 const style = {
-    position: 'fixed',
+    position: 'absolute',
+    width: '1440px',
+    height: '961px',
+    fontFamily: "'Market Deco', sans-serif",                                              
+    left: '0px',
+    top: '0px',
+    marginTop: '0',
     background: 'linear-gradient(rgba(5,5,5,0.85), rgba(225,225,225,0.0))',
-    width: 1,
-    height: 100,
-    pt: 4 ,
+    // width: 1,
+    // height: 100,
+    pt: 4
 }
 const logoStyle = {
-    marginLeft: '1em'
+    marginLeft: '3em'
 }
-export default function NavBar(){
-    return(
+export default function NavBar() {
+    return (
         <Box sx={style}>
-            <img style={logoStyle} src="https://www.bhaktaspirits.com/_next/image?url=%2Fassets%2Flogo-bhakta.png&w=384&q=75" width='200'height='65' alt="Just"/>
+            <img style={logoStyle} src="https://www.bhaktaspirits.com/_next/image?url=%2Fassets%2Flogo-bhakta.png&w=384&q=75" width='200' height='65' alt="Just" />
             <Button sx={{
-                '&:hover':{
+                '&:hover': {
                     color: '#000',
                     backgroundColor: '#edd766',
                     borderColor: '#edd766'
@@ -27,7 +33,7 @@ export default function NavBar(){
                 color: '#edd766',
                 border: 3,
                 float: "right",
-                borderRadius:0,
+                borderRadius: 0,
                 mr: 8,
                 backgroundColor: "#1E1E1E",
                 borderColor: '#edd766'
