@@ -12,8 +12,9 @@ const History  =  ()=>{
     return(
         <Box  disableGutters={true} maxWidth={'xl'} alignItems={'center'} 
          >
-        <Paper  style={{backgroundImage :`url(${Image})`}}   
-                    sx={{  
+        <Paper    
+                    sx={{
+                        backgroundImage :`linear-gradient(to bottom,rgba(0,0,0,0) 75% ,rgba(0,0,0,1)), url(${Image})` , 
                         backgroundSize:'cover',
                         hight:400,
                         padding :6,
