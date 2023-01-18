@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
 import Character from "./components/Character";
 import Quality from "./components/Quality";
+import History from "./components/History";
 
 function App() {
   const styleA = {
@@ -17,6 +18,7 @@ function App() {
       <Character />
       <Quality />
       <TestingNotes />
+      <History />
     </Box>
   );
 }
