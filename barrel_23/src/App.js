@@ -1,7 +1,9 @@
 import NavBar from "./components/NavBar";
 import image from "./images/j.jpg";
 import image1 from "./images/char.png";
+import image2 from "./images/image2.png";
 import { Box } from "@mui/material";
+import { Typography } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
 import Character from "./components/Character";
 
@@ -23,8 +25,11 @@ function App() {
       </Box>
       <Box
         style={{
+          // // display: "flex",
+          // // flexDirection: "column",
+          // height: "100vh",
           background: " #1E1E1E",
-          height: "50em",
+          height: "75em",
           boxShadow: "inset 3em 0.5em 10em 7em #000",
         }}
       >
@@ -36,8 +41,33 @@ function App() {
             position: "absolute",
             width: "388.95px",
             height: "388.95px",
-            left: "765.02px",
+            left: "665.02px",
             top: "1149.76px",
+            zIndex: "1",
+          }}
+        />
+        <img
+          src={image1}
+          alt="Collection"
+          style={{
+            position: "absolute",
+            width: "388.95px",
+            height: "388.95px",
+            left: "765.02px",
+            top: "1169.76px",
+            zIndex: "2",
+          }}
+        />
+        <img
+          src={image1}
+          alt="Collection"
+          style={{
+            position: "absolute",
+            width: "388.95px",
+            height: "388.95px",
+            left: "865.02px",
+            top: "1149.76px",
+            zIndex: "1",
           }}
         />
         <br />
