@@ -25,11 +25,8 @@ function App() {
       </Box>
       <Box
         style={{
-          // // display: "flex",
-          // // flexDirection: "column",
-          // height: "100vh",
           background: " #1E1E1E",
-          height: "75em",
+          height: "65em",
           boxShadow: "inset 3em 0.5em 10em 7em #000",
         }}
       >
