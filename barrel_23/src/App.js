@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import TestingNotes from "./components/TastingNotes";
 import image from "./images/j.jpg";
 import image1 from "./images/char.png";
 import image2 from "./images/image2.png";
@@ -6,6 +7,7 @@ import { Box } from "@mui/material";
 import { Typography } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
 import Character from "./components/Character";
+import Quality from "./components/Quality";
 
 function App() {
   return (
@@ -120,13 +122,27 @@ function App() {
               color: "#FFFFFF",
             }}
           >
-            J.P. Morgan
-
-Like the innovative banking titan for which it is named, Barrel 23: “Morgan” sets a new “gold standard” for exquisite, investment-grade spirits. Crafted from eight different Armagnac vintages—including 1893, the year J.P. Morgan rescued the U.S. Treasury from collapse—with BHAKTA 50 “Morgan” we honor the titans and tycoons who forged the modern world.
+            J.P. Morgan Like the innovative banking titan for which it is named,
+            Barrel 23: “Morgan” sets a new “gold standard” for exquisite,
+            investment-grade spirits. Crafted from eight different Armagnac
+            vintages—including 1893, the year J.P. Morgan rescued the U.S.
+            Treasury from collapse—with BHAKTA 50 “Morgan” we honor the titans
+            and tycoons who forged the modern world.
           </Box>
           <Box></Box>
         </Typography>
       </Box>
+      <Box 
+      style={{
+        background: " #1E1E1E",
+        height: "65em",
+        boxShadow: "inset 3em 0.5em 10em 7em #000",
+      }}
+      >
+        <Quality />
+        <TestingNotes/>
+      </Box>
+
     </>
   );
 }
