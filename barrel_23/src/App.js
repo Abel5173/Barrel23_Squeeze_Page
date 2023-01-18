@@ -1,37 +1,45 @@
 import NavBar from "./components/NavBar";
 import image from "./images/j.jpg";
+import image1 from "./images/char.png";
 import { Box } from "@mui/material";
-import { Typography } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
+import Character from "./components/Character";
 
 function App() {
   return (
     <>
       <Box
         style={{
-          display: "flex",
           backgroundImage: `url(${image})`,
           backgroundRepeat: "no-repeat",
+          boxShadow: "inset 3em 0.5em 15em 10em #000",
           height: "50em",
           backgroundSize: "cover",
           filter: "brightness(75%)",
-          boxShadow: "inset 3em 0.5em 10em 7em #000",
         }}
       >
         <NavBar />
-        {/* <Typography component="div">
-          <Box sx={{ 
-            zIndex: "99", 
-            fontFamily: "Market Deco",
-            fontWeight: '400',
-            fontSize: '80px', 
-            color: 'white', 
-            m: 1 }}>
-            BHAKTA 50 Barrel 23: “Morgan”
-          </Box>
-        </Typography>
-         */}
-         <ProductDescription/>
+        <ProductDescription />
+      </Box>
+      <Box
+        style={{
+          background: " #1E1E1E",
+          height: "50em",
+          boxShadow: "inset 3em 0.5em 10em 7em #000",
+        }}
+      >
+        <Character />
+        <img
+          src={image1}
+          alt="Collection"
+          style={{
+            position: "absolute",
+            width: "388.95px",
+            height: "388.95px",
+            left: "765.02px",
+            top: "1149.76px",
+          }}
+        />
       </Box>
     </>
   );

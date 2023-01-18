@@ -4,7 +4,7 @@ import { Typography, Button } from "@mui/material";
 
 export default function ProductDescription() {
   return (
-    <Typography component="div">
+    <Typography >
       <Box
         sx={{
           position: "absolute",
@@ -15,7 +15,7 @@ export default function ProductDescription() {
           fontStyle: "normal",
           lineHeight: "92%",
           letterSpacing: "-0.06em",
-          color: "#FFFFFF",
+          color: "white",
           fontFamily: "Market Deco",
           fontWeight: "400",
           fontSize: "80px",
