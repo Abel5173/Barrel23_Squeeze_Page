@@ -17,7 +17,7 @@ export default function ProductDescription() {
           letterSpacing: "-0.06em",
           color: "white",
           fontFamily: "Market Deco",
-          fontWeight: "400",
+          // fontWeight: "400",
           fontSize: "80px",
         }}
       >
