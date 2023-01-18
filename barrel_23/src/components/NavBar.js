@@ -1,43 +1,30 @@
-import { Button } from "@mui/material";
+import { AppBar, Button, Toolbar, Typography } from "@mui/material";
+import logo from "./image/logo.png";
 import { Box } from "@mui/system";
 import React from "react";
 
-const style = {
-    position: 'absolute',
-    width: '1440px',
-    height: '961px',
-    fontFamily: "'Market Deco', sans-serif",                                              
-    left: '0px',
-    top: '0px',
-    marginTop: '0',
-    background: 'linear-gradient(rgba(5,5,5,0.85), rgba(225,225,225,0.0))',
-    // width: 1,
-    // height: 100,
-    pt: 4
-}
-const logoStyle = {
-    marginLeft: '3em'
-}
 export default function NavBar() {
-    return (
-        <Box sx={style}>
-            <img style={logoStyle} src="https://www.bhaktaspirits.com/_next/image?url=%2Fassets%2Flogo-bhakta.png&w=384&q=75" width='200' height='65' alt="Just" />
-            <Button sx={{
-                '&:hover': {
-                    color: '#000',
-                    backgroundColor: '#edd766',
-                    borderColor: '#edd766'
-                },
-                height: 40,
-                width: 150,
-                color: '#edd766',
-                border: 3,
-                float: "right",
-                borderRadius: 0,
-                mr: 8,
-                backgroundColor: "#1E1E1E",
-                borderColor: '#edd766'
-            }} variant="outlined" >Barrel 23</Button>
-        </Box>
-    )
+  const style1 = {
+    borderRadius: 0,
+    fontFamily: "Libre Franklin",
+    fontStyle: "normal",
+    fontWeight: 600,
+    fontSize: "16px",
+    lineHeight: "17px",
+    textAlign: "center",
+    letterSpacing: "0.05em",
+    color: "#E2CD7A",
+    background: "#1E1E1E",
+    border: "2px solid #E2CD7A",
+  };
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar sx={{boxShadow: "0", background: "rgba(255,255,255,0)"}}>
+        <Toolbar>
+        <Typography sx={{ flexGrow: 1 }}><img src={logo} alt="Logo" /></Typography>
+          <Button style={style1}>BUY BARREL 23</Button>
+        </Toolbar>
+      </AppBar>
+    </Box>
+  );
 }

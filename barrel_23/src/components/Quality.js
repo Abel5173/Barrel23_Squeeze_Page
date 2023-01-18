@@ -9,7 +9,6 @@ export default function Quality() {
     fontWeight: 400,
     fontSize: "24px",
     lineHeight: "90%",
-    /* or 43px */
     letterSpacing: "-0.06em",
     color: "#FFFFFF",
   };
@@ -22,7 +21,6 @@ export default function Quality() {
     fontWeight: 500,
     fontSize: "24px",
     lineHeight: "29px",
-    /* identical to box height */
     textAlign: "center",
     color: "#FFFFFF",
   };
@@ -41,7 +39,6 @@ export default function Quality() {
           fontWeight: 400,
           fontSize: "48px",
           lineHeight: "90%",
-          /* or 43px */
           letterSpacing: "-0.06em",
           color: "#FFFFFF",
         }}
@@ -62,7 +59,6 @@ export default function Quality() {
           fontWeight: "700",
           fontSize: "24px",
           lineHeight: "90%",
-          /* or 28px */
           display: "flex",
           alignItems: "flex-end",
           textAlign: "center",
