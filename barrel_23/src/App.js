@@ -6,6 +6,7 @@ import Character from "./components/Character";
 import Quality from "./components/Quality";
 import History from "./components/History";
 import SoldOut from "./components/SoldOut";
+import Honors from "./components/Honors";
 
 function App() {
   const styleA = {
@@ -21,6 +22,7 @@ function App() {
       <TestingNotes />
       <History />
       <SoldOut/>
+      <Honors />
     </Box>
   );
 }
