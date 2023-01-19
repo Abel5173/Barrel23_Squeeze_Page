@@ -7,6 +7,7 @@ import Quality from "./components/Quality";
 import History from "./components/History";
 import SoldOut from "./components/SoldOut";
 import Honors from "./components/Honors";
+import Footer from "./components/Footer";
 
 function App() {
   const styleA = {
@@ -23,6 +24,7 @@ function App() {
       <History />
       <SoldOut/>
       <Honors />
+      <Footer/>
     </Box>
   );
 }

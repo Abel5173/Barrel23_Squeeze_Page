@@ -154,7 +154,11 @@ export default function Honors() {
         </Box>
       </Box>
 
-      <Box>
+      <Box
+      style={{
+            height: "962.29px",
+      }}
+      >
         <Box
           style={{
             backgroundImage: `url(${Morgan})`,
@@ -165,37 +169,58 @@ export default function Honors() {
           sx={{
             position: "absolute",
             width: "100%",
-            height: "961px",
+            height: "100vh",
             zIndex: 1,
           }}
         ></Box>
 
         <Box
           style={{
+            display: "grid",
+            gap: "10px",
+            width: "100%",
+            height: "100vh",
             background:
               "radial-gradient(75.67% 49.17% at 57.95% 63.97%, rgba(0, 0, 0, 0) 19.79%, rgba(0, 0, 0) 100%)",
-            height: "962.29px",
             position: "relative",
             zIndex: 2,
+            justifyContent: "center",
+            textAlign: "center",
           }}
         >
           <Typography
             style={{
-                position: "absolute",
+              m: "0px",
+              height: "150px",
               fontFamily: "Libre Franklin",
               fontStyle: "italic",
               fontWeight: 400,
               fontSize: "36px",
-              lineHeight: "140%",
-              textAlign: "center",
               letterSpacing: "0.04em",
               color: "#FFFFFF",
             }}
           >
-            “Investing in Barrel 21, can be compared with investing in a piece
-            of history. It's unique, and only a few have the opportunity to get
-            hold of it.”
+            “Investing in Barrel 21, can be compared with
+            <br /> investing in a piece of history. It's unique, and only
+            <br /> a few have the opportunity to get hold of it.”
           </Typography>
+
+          <Typography
+            style={{
+              position: "relative",
+              bottom: "220px",
+              height: "50px",
+              fontFamily: "Market Deco",
+              fontStyle: "italic",
+              fontWeight: 600,
+              fontSize: "32px",
+              letterSpacing: "-0.06em",
+              color: "#FFFFFF",
+            }}
+          >
+            - Joseph V Micallef, Forbes
+          </Typography>
+
         </Box>
       </Box>
     </Box>
