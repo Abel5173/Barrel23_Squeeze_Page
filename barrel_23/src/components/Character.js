@@ -11,7 +11,7 @@ export default function Character() {
       <Typography
         variant="h5"
         sx={{
-          position: "absolute",
+          // position: "absolute",
           width: "289px",
           height: "86px",
           left: "267px",
@@ -33,7 +33,7 @@ export default function Character() {
 
       <Box
         style={{
-          position: "absolute",
+          // position: "absolute",
           width: "438px",
           height: "280px",
           left: "267px",
@@ -59,7 +59,7 @@ export default function Character() {
         src={image1}
         alt="Collection"
         style={{
-          position: "absolute",
+          position: " absolute",
           width: "388.95px",
           height: "388.95px",
           left: "665.02px",

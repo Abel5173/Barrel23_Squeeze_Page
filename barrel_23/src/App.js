@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import "./App.css";
 import TestingNotes from "./components/TastingNotes";
 import { Box } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
@@ -10,22 +11,20 @@ import Honors from "./components/Honors";
 import Footer from "./components/Footer";
 
 function App() {
-  const styleA = {
-    backgroundColor: "#050505",
-    height: "5818px",
-  };
   return (
-    <Box style={styleA}>
+    <div className="App">
       <NavBar />
-      <ProductDescription />
+      <div className="render">
+        <ProductDescription />
       <Character />
-      <Quality />
-      <TestingNotes />
-      <History />
-      <SoldOut/>
-      <Honors />
-      <Footer/>
-    </Box>
+      </div>
+      {/* <Quality /> */}
+      {/* <TestingNotes /> */}
+      {/* <History /> */}
+      {/* <SoldOut/> */}
+      {/* <Honors /> */}
+      {/* <Footer/> */}
+    </div>
   );
 }
 
