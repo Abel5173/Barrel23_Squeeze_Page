@@ -220,7 +220,6 @@ export default function Honors() {
           >
             - Joseph V Micallef, Forbes
           </Typography>
-
         </Box>
       </Box>
     </Box>
