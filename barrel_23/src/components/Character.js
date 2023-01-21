@@ -1,50 +1,39 @@
 import React from "react";
+import "./style.css";
 import image1 from "./image/char.png";
 import image2 from "./image/image2.png";
 import { Box } from "@mui/system";
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 export default function Character() {
   
   return (
-    <Typography>
-      <Typography
-        variant="h5"
-        sx={{
-          // position: "absolute",
-          width: "289px",
-          height: "86px",
-          left: "267px",
-          top: "1109.53px",
-          fontFamily: "Market Deco",
-          fontStyle: "normal",
-          fontWeight: 400,
-          fontSize: "48px",
-          lineHeight: "90%",
-          /* or 43px */
-          letterSpacing: "-0.06em",
-          color: "#FFFFFF",
-        }}
-      >
+    <Grid container
+    // xl={8}
+    className="collection"
+    >
+      <Grid item xs={8} xl={12}
+        // variant="h5"
+        >
         The Bhakta 50 Collection
         <br />
         <br />
-      </Typography>
+      </Grid>
 
       <Box
         style={{
           // position: "absolute",
-          width: "438px",
-          height: "280px",
-          left: "267px",
-          top: "1227.53px",
-          fontFamily: "Libre Franklin",
-          fontStyle: "normal",
-          fontWeight: "400",
-          fontSize: "20px",
-          lineHeight: "140%",
-          letterSpacing: "0.04em",
-          color: "#FFFFFF",
+          // width: "438px",
+          // height: "280px",
+          // left: "267px",
+          // top: "1227.53px",
+          // fontFamily: "Libre Franklin",
+          // fontStyle: "normal",
+          // fontWeight: "400",
+          // fontSize: "20px",
+          // lineHeight: "140%",
+          // letterSpacing: "0.04em",
+          // color: "#FFFFFF",
         }}
       >
         Fifty Years at its youngest—and more than one hundred fifty at its
@@ -59,36 +48,36 @@ export default function Character() {
         src={image1}
         alt="Collection"
         style={{
-          position: " absolute",
-          width: "388.95px",
-          height: "388.95px",
-          left: "665.02px",
-          top: "1149.76px",
-          zIndex: "1",
+          // position: " absolute",
+          // width: "388.95px",
+          // height: "388.95px",
+          // left: "665.02px",
+          // top: "1149.76px",
+          // zIndex: "1",
         }}
       />
       <img
         src={image1}
         alt="Collection"
         style={{
-          position: "absolute",
-          width: "388.95px",
-          height: "388.95px",
-          left: "765.02px",
-          top: "1169.76px",
-          zIndex: "2",
+          // position: "absolute",
+          // width: "388.95px",
+          // height: "388.95px",
+          // left: "765.02px",
+          // top: "1169.76px",
+          // zIndex: "2",
         }}
       />
       <img
         src={image1}
         alt="Collection"
         style={{
-          position: "absolute",
-          width: "388.95px",
-          height: "388.95px",
-          left: "865.02px",
-          top: "1149.76px",
-          zIndex: "1",
+          // position: "absolute",
+          // width: "388.95px",
+          // height: "388.95px",
+          // left: "865.02px",
+          // top: "1149.76px",
+          // zIndex: "1",
         }}
       />
       <br />
@@ -97,28 +86,28 @@ export default function Character() {
         src={image2}
         alt="Collection"
         style={{
-          position: "absolute",
-          width: "440px",
-          height: "592px",
-          left: "194px",
-          top: "1669px",
+          // position: "absolute",
+          // width: "440px",
+          // height: "592px",
+          // left: "194px",
+          // top: "1669px",
         }}
       />
       <Typography
         variant="h5"
         sx={{
-          position: "absolute",
-          width: "457px",
-          height: "86px",
-          left: "735px",
-          top: "1669px",
-          fontFamily: "Market Deco",
-          fontStyle: "normal",
-          fontWeight: 400,
-          fontSize: "48px",
-          lineHeight: "90%",
-          letterSpacing: "-0.06em",
-          color: "#FFFFFF",
+          // position: "absolute",
+          // width: "457px",
+          // height: "86px",
+          // left: "735px",
+          // top: "1669px",
+          // fontFamily: "Market Deco",
+          // fontStyle: "normal",
+          // fontWeight: 400,
+          // fontSize: "48px",
+          // lineHeight: "90%",
+          // letterSpacing: "-0.06em",
+          // color: "#FFFFFF",
         }}
       >
         The Bhakta 50 Collection
@@ -127,18 +116,18 @@ export default function Character() {
       </Typography>
       <Box
         style={{
-          position: "absolute",
-          width: "493px",
-          height: "285px",
-          left: "735px",
-          top: "1854px",
-          fontFamily: "Libre Franklin",
-          fontStyle: "normal",
-          fontWeight: "700",
-          fontSize: "24px",
-          lineHeight: "140%",
-          letterSpacing: "0.04em",
-          color: "#FFFFFF",
+          // position: "absolute",
+          // width: "493px",
+          // height: "285px",
+          // left: "735px",
+          // top: "1854px",
+          // fontFamily: "Libre Franklin",
+          // fontStyle: "normal",
+          // fontWeight: "700",
+          // fontSize: "24px",
+          // lineHeight: "140%",
+          // letterSpacing: "0.04em",
+          // color: "#FFFFFF",
         }}
       >
         J.P. Morgan Like the innovative banking titan for which it is named,
@@ -149,6 +138,6 @@ export default function Character() {
         who forged the modern world.
       </Box>
       <Box></Box>
-    </Typography>
+    </Grid>
   );
 }
