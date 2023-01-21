@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
 import TestingNotes from "./components/TastingNotes";
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import ProductDescription from "./components/ProductDescription";
 import Character from "./components/Character";
 import Quality from "./components/Quality";
@@ -12,19 +12,19 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <Grid className="App">
       <NavBar />
-      <div className="render">
+      <Grid className="render">
         <ProductDescription />
       <Character />
-      </div>
+      </Grid>
       {/* <Quality /> */}
       {/* <TestingNotes /> */}
       {/* <History /> */}
       {/* <SoldOut/> */}
       {/* <Honors /> */}
       {/* <Footer/> */}
-    </div>
+    </Grid>
   );
 }
 

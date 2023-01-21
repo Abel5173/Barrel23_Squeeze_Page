@@ -89,16 +89,55 @@ body {
            color: #FFFFFF
 }
 
-.collection{
-  width: 10vw;
-  height: 3vh;
+.collection .grid1{
+  /* width: 10vw;
+  height: 3vh; */
+  margin-bottom: 2vw;
   font-family: "Market Deco";
   font-style: normal;
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 2vw;
   line-height: 90%;
   letter-spacing: -0.06em;
   color: #FFFFFF;
+}
+
+.collection .grid2{
+  /* width: 10vw;
+  height: 3vh; */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.images{
+  text-align: center;
+}
+
+.images img{
+  width: 20vmax
+}
+
+.img2{
+  position: relative;
+  /* right: 14vw; */
+  top: 3vh;
+  z-index: 2;
+}
+
+.img1{
+  position: relative;
+  right: 15vw;
+  /* top: 2vh; */
+}
+
+.img3{
+  position: relative;
+  left: 15vw;
 }
 
 @media screen and (max-width: 1476px) {
@@ -132,6 +171,12 @@ body {
     margin-right: 1.5vw;
     font-size: 0.005vw;
   }
+}
+
+@media screen and (max-width: 600px) {
+    .images{
+      display: inline-block;
+    }
 }
 
 @media screen and (max-width: 475px) {
