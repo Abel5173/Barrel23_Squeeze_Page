@@ -18,9 +18,14 @@ export default function NavBar() {
     }}
     className="navbar">
       <Toolbar>
-      <Box sx={{flexGrow:1}}>
-      <img src={logo} alt="Logo" />
-      </Box>
+      <box component="img"
+      sx={{
+        // backgroundImage: `url(${logo})`,
+        // backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+        flexGrow:1
+      }}
+      >ddlkvnnfmg</box>
       <Button className="btn" >BUY BARREL 23</Button>
       </Toolbar>
     </AppBar>
