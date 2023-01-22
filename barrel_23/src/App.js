@@ -12,19 +12,35 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+<<<<<<< HEAD
     <Grid className="App">
       <NavBar />
       <Grid className="render">
         <ProductDescription />
+=======
+    <div className="App">
+      {/* <NavBar /> */}
+      <div className="render">
+        {/* <ProductDescription /> */}
+>>>>>>> d5eca0c (Quality got responsive)
       <Character />
       </Grid>
       {/* <Quality /> */}
+<<<<<<< HEAD
       {/* <TestingNotes /> */}
       {/* <History /> */}
       {/* <SoldOut/> */}
       {/* <Honors /> */}
       {/* <Footer/> */}
     </Grid>
+=======
+      {/* <TestingNotes />
+      <History />
+      <SoldOut/>
+      <Honors />
+      <Footer/> */}
+    </div>
+>>>>>>> d5eca0c (Quality got responsive)
   );
 }
 
