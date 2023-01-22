@@ -6,10 +6,24 @@ import './style.css'
 
 export default function NavBar() {
   return (
-    
-    <Grid className="navbar">
+    <Box sx={{
+      flexBox: 1,
+      background: "rgba(0,0,0,0)"
+    }}
+      >
+    <AppBar 
+    sx={{
+      flexBox: 1,
+      background: "rgba(0,0,0,0)"
+    }}
+    className="navbar">
+      <Toolbar>
+      <Box sx={{flexGrow:1}}>
       <img src={logo} alt="Logo" />
+      </Box>
       <Button className="btn" >BUY BARREL 23</Button>
-    </Grid>
+      </Toolbar>
+    </AppBar>
+    </Box>
   );
 }

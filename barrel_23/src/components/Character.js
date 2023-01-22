@@ -9,7 +9,6 @@ export default function Character() {
   return (
     <Grid
       container
-      // xl={8}
       className="collection"
     >
       <Grid
@@ -20,7 +19,6 @@ export default function Character() {
         sm={3}
         xs={12}
         className="grid1"
-        // variant="h5"
       >
         The Bhakta 50 Collection
         {/* <br />
@@ -86,21 +84,10 @@ export default function Character() {
           {/* </Stack> */}
         </Grid>
       </Grid>
-
-      <br />
-      <br />
+      <Grid container>
       <img
         src={image2}
         alt="Collection"
-        style={
-          {
-            // position: "absolute",
-            // width: "440px",
-            // height: "592px",
-            // left: "194px",
-            // top: "1669px",
-          }
-        }
       />
       <Typography
         variant="h5"
@@ -150,6 +137,7 @@ export default function Character() {
         from collapse—with BHAKTA 50 “Morgan” we honor the titans and tycoons
         who forged the modern world.
       </Box>
+      </Grid>
       <Box></Box>
     </Grid>
   );
