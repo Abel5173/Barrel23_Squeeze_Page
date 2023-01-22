@@ -1,4 +1,4 @@
-import { AppBar, Button, Toolbar, Typography } from "@mui/material";
+import { AppBar, Button, Paper, Toolbar, Typography } from "@mui/material";
 import logo from "./image/logo.png";
 import { Box, Grid } from "@mui/material";
 import React from "react";
@@ -18,14 +18,9 @@ export default function NavBar() {
     }}
     className="navbar">
       <Toolbar>
-      <box component="img"
-      sx={{
-        // backgroundImage: `url(${logo})`,
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "cover",
-        flexGrow:1
-      }}
-      >ddlkvnnfmg</box>
+      <Paper variant="outlined" sx={{flexGrow:1}}>
+      <img src={logo} alt="Logo" />
+      </Paper>
       <Button className="btn" >BUY BARREL 23</Button>
       </Toolbar>
     </AppBar>
